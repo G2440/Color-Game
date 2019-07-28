@@ -1,0 +1,52 @@
+*{  
+    margin: 0px;
+    
+    box-sizing: border-box;
+}
+#one , #three{
+    font-size: 24px;
+    text-align: center;
+}
+.two{
+    text-align: center;
+    font-size: 55px;
+}
+.second{
+    padding-left: 20%;
+}
+.first{
+    padding-left: 30%;
+}
+.square{
+    width: 30%;
+    background: red;
+    padding-top: 30%;
+    float: left;
+    margin: 1.66%;
+    text-align: center;
+}
+#container{
+    max-width: 600px;
+    margin: 0 auto;
+}
+.top{
+ 
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+body{
+    background: #232323;
+}
+#navbar{
+    background: white;
+    width: 100%;
+}
+.selected{
+    background: blue;
+}
+h1{
+    color: red;
+}
+.new:hover{
+    background-color: coral;
+}
