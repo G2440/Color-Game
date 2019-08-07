@@ -86,7 +86,7 @@ function generateRandomColors(num){
     }
     return arr;
 };
-
+//Random Color Generator
 function randomColors(){
     var r = Math.floor(Math.random()*256);
     var g = Math.floor(Math.random()*256); 
