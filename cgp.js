@@ -75,10 +75,14 @@ function changecolors(color){
     }
       
 };
+
+// Function to pick a random colour.
 function pickcolor(){
    var randomno = Math.floor(Math.random() * colors.length);
    return colors[randomno]; 
 };
+
+// Function to generate a random colour.
 function generateRandomColors(num){
     var arr = [];
     for(var i = 0 ; i < num ; i++){
